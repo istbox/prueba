@@ -1,0 +1,38 @@
+$naranja: #ea5455;
+$ist_dark: #2d4059;
+$granate: #700;
+$azul: var(--blue);
+	
+/*	A J U S T E S */
+body {
+	min-width: 350px;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+.container	{ max-width: 1240px; }
+.inicio		{ height:60px; }
+.navbar		{ border-bottom: 2px solid $granate; }
+.navbar-nav { font-size: 1.2em; }
+
+/*	Movil desde min a 576px*/
+@media all and (max-width: 576px){
+	.mlogo{
+		width:200px;
+	}
+}
+
+/*	Tablet Vert desde 576 a 768px*/
+@media all and (max-width: 768px){
+
+}
+
+/*	Tablet Horiz. desde 768 a 992px*/
+@media all and (max-width: 992px){
+
+}
+
+/*	Desktop Peq. desde 992 hasta max*/
+@media all and (max-width: 1200px){
+
+}
+
